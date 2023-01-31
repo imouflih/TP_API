@@ -47,3 +47,19 @@ L'annotation @Autowired de Spring automatise l'injection de dépendance des rép
 ### Etape 30
 
 Pour utiliser Bootstrap, j'ai intégré les fichiers de feuilles de styles et de scripts Bootstrap en provenance de la page officielle, dans les pages où j'ai besoin de Bootstrap.
+
+## Questions TP 4
+
+### Etape 6
+1. L'utilisation d'une clé API est nécessaire pour accéder à MeteoConcept API en raison de la sécurité et de la protection de l'API, ce qui requiert également une authentification.
+    
+2. Pour appeler l'API, l'URL à utiliser est : https://api.meteo-concept.com/api/forecast/daily/0?token=CLE_API&latlng=LATITUDE,LONGITUDE
+
+3. La méthode GET est utilisée pour obtenir les informations de l'API sans ajouter quoi que ce soit.
+
+4. Les paramètres sont passés en ajoutant un "?" à l'URL, suivi de chaque paramètre séparé par "&".
+
+5. Les prévisions météorologiques sont incluses dans la section "forecast" du corps JSON de la réponse.
+
+# Repositoire GITHUB
+https://github.com/imouflih/TP_API.git
